@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial;
+    background-color: rgb(58, 57, 57);
+    color: white;
+}
+
+.time-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.controls{
+    margin-top: 60px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+button{
+    border:none;
+    padding: 15px 25px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.start{
+    background-color: green;
+}
+
+
+.reset{
+    background-color: yellow;
+    color: black;
+}
