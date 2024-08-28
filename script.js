@@ -15,8 +15,6 @@ let hours = 0;
 let time;
 let isRunning = false;
 
-console.log("hello world this is my codespace");
-
 function updateHTML(){
     container.innerHTML = `
     <p id="hrs">${hours.toString().padStart(2, '0')}:</p>
@@ -72,5 +70,3 @@ function resetTimer(){
 
 startButton.addEventListener('click', startTimer);
 resetButton.addEventListener('click', resetTimer);
-
-console.log("hello world this is my codespace");
