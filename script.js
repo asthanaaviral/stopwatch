@@ -70,3 +70,5 @@ function resetTimer(){
 
 startButton.addEventListener('click', startTimer);
 resetButton.addEventListener('click', resetTimer);
+
+console.log("hello world this is my codespace");
